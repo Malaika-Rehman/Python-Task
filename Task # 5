@@ -1,0 +1,4 @@
+user_dict = {
+    input:  {'name': 'geeks', 'age': 21, 'country': 'India'}
+}
+print(user_dict[input])
