@@ -1,0 +1,19 @@
+marks = int(input("Enter your marks (0-100): "))
+if 0 <= marks <= 100:
+    if marks >= 90:
+        grade = 'A+'
+    else:
+        if marks >= 80:
+            grade = 'A'
+        else:
+            if marks >= 70:
+                grade = 'B'
+            else:
+                if marks >= 60:
+                    grade = 'C'
+                else:
+                    if marks >= 50:
+                        grade = 'D'
+                    else:
+                        grade = 'Fail'
+    print("Your grade is:", grade)
