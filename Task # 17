@@ -1,0 +1,8 @@
+text = input("Enter a string: ")
+
+print(f"\n Original string: {text}")
+
+print(f"First 5 characters: {text[:5]}")
+print(f"Last 3 characters: {text[-3:]}")
+print(f"Characters from index 2 to 6: {text[2:7]}")
+print(f"String in reverse: {text[::-1]}")
