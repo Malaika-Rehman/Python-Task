@@ -1,0 +1,38 @@
+#Addition
+num1_str = input("Enter the first number: ")
+num2_str = input("Enter the second number: ")
+num1 = int(num1_str)
+num2 = int(num2_str)
+print("Invalid input. Please enter valid numbers.")
+sum_result = num1 + num2
+print(f"The sum of {num1} and {num2} is: {sum_result}")
+
+#multiplication
+num1_str = input("Enter the first number: ")
+num2_str = input("Enter the second number: ")
+num1 = int(num1_str)
+num2 = int(num2_str)
+print("Invalid input. Please enter valid numbers.")
+product_result = num1 * num2
+print(f"The product of {num1} and {num2} is: {product_result}")
+
+#division
+num1_str = input("Enter the first number: ")
+num2_str = input("Enter the second number: ")
+num1 = float(num1_str)
+num2 = float(num2_str)
+print("Invalid input. Please enter valid numbers.")
+division_result = num1 / num2
+print(f"The division of {num1} and {num2} is: {division_result}")
+
+#subtraction
+num1_str = input("Enter the first number: ")
+num2_str = input("Enter the second number: ")
+num1 = int(num1_str)
+num2 = int(num2_str)
+print("Invalid input. Please enter valid numbers.")
+sub_result = num1 -num2
+print(f"The sub of {num1} and {num2} is: {sub_result}")
+
+
+
