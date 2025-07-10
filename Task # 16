@@ -1,0 +1,7 @@
+n = int(input("Enter a positive number: "))
+
+if n > 0:
+    total = n * (n + 1) // 2
+    print(f"Sum of first {n} natural numbers is:", total)
+else:
+    print("Please enter a positive number.")
