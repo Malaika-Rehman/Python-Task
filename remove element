@@ -1,0 +1,8 @@
+fruits = ['apple', 'banana', 'mango', 'orange']
+item = input("Enter the fruit you want to remove: ")
+
+if item in fruits:
+    fruits.remove(item)
+    print("Updated list:", fruits)
+else:
+    print(item, "not found in the list.")
