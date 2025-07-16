@@ -1,0 +1,6 @@
+digits = [1, 2, 3]
+num = int("".join(str(d) for d in digits))
+num = num + 1
+result = [int(d) for d in str(num)]
+
+print("After plus one:", result)
